@@ -13,7 +13,7 @@ namespace Petlje
             /*1. Napišite program koji će ispisati sve prijestupne godine u razdoblju od(uključujući) 1900. do (uključujući)2100.Prijestupne godine su one koje su djeljive sa 400 
              plus one koje su djeljive sa 4, ali ne i sa 100.*/
             
-            /*for(int j=1900;j<=2100 ;j++)
+            for(int j=1900;j<=2100 ;j++)
             {
                 if (j % 400 ==0 || j % 4 ==0)
                 {
@@ -27,7 +27,7 @@ namespace Petlje
             /*2.Napišite program koji će za unešeni niz znakova pronaći znak koji se pojavljuje najviše puta,
             te će i izračunati taj broj(npr.VODOVOD -> O, 3 puta).*/
 
-            /*string str;
+            string str;
             int[] ch_fre = new int[255];
             int i = 0, max, l;
             int ascii;
@@ -63,7 +63,7 @@ namespace Petlje
 
             /*3. Napišite program koji će zatražiti od korisnika da unese dva broja, te će izračunati najveći broj s kojim su oba broja djeljiva.*/
 
-            /*Console.WriteLine("Upisi te dva broja");
+            Console.WriteLine("Upisi te dva broja");
             int a = Convert.ToInt32(Console.ReadLine()), b = Convert.ToInt32(Console.ReadLine());
             int[] list = { a, b };
             int min_broj = list.Min();
